@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #0b0f14;
+  color: #d1d5db;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: radial-gradient(circle at top, #0f172a, #0b0f14);
+}
+
+.hero h1 {
+  font-family: "Fira Code", monospace;
+  font-size: 2.5rem;
+  color: #22c55e;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-top: 10px;
+}
+
+.tags {
+  margin: 20px 0;
+}
+
+.tags span {
+  display: inline-block;
+  background: #111827;
+  padding: 6px 10px;
+  margin: 4px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  border: 1px solid #1f2937;
+}
+
+.buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 14px;
+  border: 1px solid #22c55e;
+  color: #22c55e;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.buttons a:hover {
+  background: #22c55e;
+  color: #000;
+}
+
+.section {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #111827;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+}
+
+.project {
+  background: #0f172a;
+  padding: 15px;
+  margin-top: 10px;
+  border-left: 3px solid #22c55e;
+}
+
+footer {
+  text-align: center;
+  padding: 40px;
+  color: #6b7280;
+}
