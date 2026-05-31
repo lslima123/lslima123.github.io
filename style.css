@@ -157,3 +157,13 @@ html {
   background: #22c55e;
   color: #000;
 }
+
+/* ===================== WRITEUPS ===================== */
+
+.writeup {
+  border-left: 3px solid #f59e0b;
+}
+
+.writeup:hover {
+  border-left: 3px solid #fbbf24;
+}
