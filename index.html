@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20260913-2">
   <script src="script.js" defer></script>
 </head>
 
@@ -173,20 +173,13 @@
             </div>
             <p class="project-index">DATA SCIENCE · ML ENGINEERING</p>
             <h3>Stock ML Lab</h3>
-            <p>A research platform for comparing financial time-series forecasting models under leakage-aware temporal validation, from reproducible experiments to a typed API and React interface.</p>
+            <p>A full-stack research platform for comparing financial time-series models under realistic, leakage-aware temporal validation.</p>
             <ul class="feature-list">
               <li>Leakage-aware temporal CV</li>
               <li>Local vs pooled global models</li>
-              <li>Nested Optuna tuning</li>
-              <li>HAC &amp; block-bootstrap inference</li>
-              <li>Independent confirmation</li>
-              <li>FastAPI &amp; React application</li>
+              <li>Dependence-aware inference</li>
+              <li>FastAPI &amp; React interface</li>
             </ul>
-            <div class="project-evidence">
-              <span>LOCKED CONFIRMATION · H=5</span>
-              <strong>Global Ridge reduced OOS RMSE by 1.72%</strong>
-              <p>9/10 independent assets · HAC/FDR q = 0.000132 · 95% CI [0.91%, 2.56%]. Forecast-loss improvement, not trading return.</p>
-            </div>
             <div class="flagship-actions">
               <a class="button button-primary" href="https://github.com/lslima123/stock-ml-lab" target="_blank" rel="noopener noreferrer">View repository <span aria-hidden="true">↗</span></a>
               <a class="button button-secondary" href="https://github.com/lslima123/stock-ml-lab/blob/main/docs/METHODOLOGY.md" target="_blank" rel="noopener noreferrer">Methodology <span aria-hidden="true">↗</span></a>
@@ -194,6 +187,12 @@
           </div>
           <div class="flagship-visual" aria-hidden="true">
             <div class="chart-grid"></div>
+            <div class="chart-insight">
+              <p class="chart-insight-label">Locked OOS confirmation</p>
+              <div class="chart-insight-value"><strong>−1.72%</strong><span>RMSE</span></div>
+              <p>Global Ridge vs Local Ridge</p>
+              <small>h=5 · 9/10 independent assets · confirmed</small>
+            </div>
             <svg viewBox="0 0 520 260" role="img">
               <defs>
                 <linearGradient id="line-gradient" x1="0" x2="1">

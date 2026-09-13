@@ -625,7 +625,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 70px;
+  margin-bottom: 54px;
 }
 
 .label {
@@ -681,42 +681,11 @@ h3 {
   content: "+";
 }
 
-.project-evidence {
-  margin-top: 30px;
-  padding: 15px 17px;
-  border-left: 2px solid var(--blue);
-  border-radius: 0 8px 8px 0;
-  background: rgba(72, 184, 243, .055);
-}
-
-.project-evidence span {
-  display: block;
-  margin-bottom: 5px;
-  color: var(--blue);
-  font-family: var(--mono);
-  font-size: .58rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-}
-
-.project-evidence strong {
-  display: block;
-  color: var(--text);
-  font-size: .88rem;
-}
-
-.project-evidence p {
-  margin: 5px 0 0;
-  color: var(--text-muted);
-  font-size: .72rem;
-  line-height: 1.55;
-}
-
 .flagship-actions {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 25px;
+  margin-top: 34px;
 }
 
 .flagship-actions .button {
@@ -741,6 +710,67 @@ h3 {
   inset: 0;
   background-image: linear-gradient(var(--line-soft) 1px, transparent 1px), linear-gradient(90deg, var(--line-soft) 1px, transparent 1px);
   background-size: 52px 52px;
+}
+
+.chart-insight {
+  position: absolute;
+  z-index: 2;
+  top: 28px;
+  left: 28px;
+  width: min(290px, calc(100% - 56px));
+  padding: 18px 20px;
+  border: 1px solid rgba(72, 184, 243, .24);
+  border-radius: 12px;
+  background: rgba(8, 13, 20, .88);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, .24);
+  backdrop-filter: blur(12px);
+}
+
+.chart-insight p {
+  margin: 0;
+}
+
+.chart-insight-label {
+  color: var(--blue);
+  font-family: var(--mono);
+  font-size: .58rem;
+  font-weight: 700;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.chart-insight-value {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 6px 0 2px;
+}
+
+.chart-insight-value strong {
+  color: var(--text);
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  letter-spacing: -.06em;
+  line-height: 1;
+}
+
+.chart-insight-value span {
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: .62rem;
+  font-weight: 700;
+}
+
+.chart-insight > p:not(.chart-insight-label) {
+  color: var(--text-soft);
+  font-size: .76rem;
+}
+
+.chart-insight small {
+  display: block;
+  margin-top: 6px;
+  color: var(--text-muted);
+  font-family: var(--mono);
+  font-size: .54rem;
 }
 
 .flagship-visual svg {
