@@ -20,9 +20,14 @@ The portfolio presents Mathematics as the analytical foundation behind these dis
 
 ### Flagship project
 
-**Stock ML Lab** is an ongoing research framework for financial-return prediction built around reproducible experiments and honest out-of-sample evaluation.
+**[Stock ML Lab](https://github.com/lslima123/stock-ml-lab)** is a released v0.15.0 research platform for comparing financial time-series forecasting models under leakage-aware temporal validation.
 
-Its methodology includes temporal cross-validation, classical and machine-learning baselines, hyperparameter optimization, bootstrap inference, transaction-cost analysis, and cross-asset robustness testing.
+It combines classical and machine-learning baselines, nested temporal tuning, dependence-aware statistical inference, cross-asset robustness, pooled multi-asset modeling, a typed FastAPI service, and a React interface.
+
+Its locked independent confirmation found that Global Ridge reduced h=5 OOS RMSE by **1.72%** relative to Local Ridge across 9/10 confirmation assets (HAC/FDR q = 0.000132; 95% circular block-bootstrap CI [0.91%, 2.56%]). This is a forecasting-loss improvement, not an investment return; the corresponding classification hypothesis was not confirmed.
+
+- [Open the repository](https://github.com/lslima123/stock-ml-lab)
+- [Read the methodology](https://github.com/lslima123/stock-ml-lab/blob/main/docs/METHODOLOGY.md)
 
 ### Selected work
 
@@ -104,8 +109,8 @@ This repository is designed for GitHub Pages user-site deployment.
 Example:
 
 ```bash
-git add index.html style.css script.js assets/cv.pdf README.md
-git commit -m "Redesign unified technical portfolio"
+git add index.html style.css README.md
+git commit -m "Update Stock ML Lab portfolio entry"
 git push origin main
 ```
 
@@ -137,9 +142,9 @@ assets/cv.pdf
 
 Keeping the filename unchanged prevents the download link from breaking.
 
-### Publish Stock ML Lab
+### Update Stock ML Lab evidence
 
-When its public repository is ready, add the repository URL to the flagship project section in `index.html` and update the project description here.
+The flagship card links to the public project and reports only its locked M14 confirmation result. If a later release changes that evidence, update the version, claim, uncertainty interval, and methodological link together.
 
 ## Design direction
 
