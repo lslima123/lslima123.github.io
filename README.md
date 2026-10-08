@@ -33,6 +33,7 @@ Its locked independent confirmation found that Global Ridge reduced h=5 OOS RMSE
 
 | Project | Areas | Description |
 |---|---|---|
+| [Debt Renegotiation Prediction](https://github.com/lslima123/debt-renegotiation-prediction) | Data Science, ML | Exploratory analysis, temporal validation, and gradient boosting for next-month debt renegotiation on synthetic data. In a retrospective evaluation, the top 20% of scores captured 57.1% of observed renegotiations. |
 | [AWS Cloud Cost Analysis](https://github.com/lslima123/Desafio-ICT-Itau) | Data Science, ML | Data processing, exploratory analysis, and regression modeling for AWS instance-pricing data. |
 | [WebRecon](https://github.com/lslima123/webrecon) | Python, Cybersecurity | Web reconnaissance toolkit for HTTP analysis, security-header inspection, and endpoint discovery. |
 | [Gold Time-Series Analysis](https://github.com/lslima123/gold_discussion) | Data Science, Statistics | Statistical investigation of gold-price dynamics using stationarity tests and ARIMA models. |
